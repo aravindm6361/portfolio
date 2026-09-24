@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Aravind M | Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f3f4f6;
+            color: #333;
+        }
+        /* HEADER */
+        
+        header {
+            background: #0f172a;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        
+        header h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+        /* NAV */
+        
+        nav {
+            background: #020617;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        nav a:hover {
+            color: #38bdf8;
+        }
+        /* SECTION */
+        
+        section {
+            background: white;
+            margin: 20px;
+            padding: 30px;
+            border-radius: 10px;
+        }
+        /* SKILLS */
+        
+        .skills span {
+            display: inline-block;
+            background: #e5e7eb;
+            padding: 10px 15px;
+            margin: 5px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        /* PROJECTS */
+        
+        .project {
+            margin-bottom: 15px;
+            padding: 15px;
+            border-left: 5px solid #38bdf8;
+            background: #f8fafc;
+        }
+        /* BUTTON */
+        
+        button {
+            background: #38bdf8;
+            border: none;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        
+        button:hover {
+            background: #0284c7;
+        }
+        /* FOOTER */
+        
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #020617;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Aravind M</h1>
+        <p>Computer Science Student | Android & Web Developer</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a Computer Science student passionate about Android development, Firebase, and web technologies. I enjoy building real-world projects and continuously improving my skills.
+        </p>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>Java</span>
+        <span>Kotlin</span>
+        <span>Android Studio</span>
+        <span>Firebase</span>
+        <span>Python</span>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>SpendSense – Expense Manager App</h3>
+            <p>Android app built using Kotlin and Firebase for managing expenses.</p>
+        </div>
+
+        <div class="project">
+            <h3>Air Quality Monitoring System</h3>
+            <p>Web project using HTML, CSS, and JavaScript to display air quality data.</p>
+        </div>
+
+        <button onclick="showMessage()">Click Me</button>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: aravind@example.com</p>
+        <p>GitHub: github.com/aravind</p>
+        <p>LinkedIn: linkedin.com/in/aravind</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Aravind M</p>
+    </footer>
+
+    <script>
+        function showMessage() {
+            alert("Thanks for visiting my portfolio!");
+        }
+    </script>
+
+</body>
+
+</html>
